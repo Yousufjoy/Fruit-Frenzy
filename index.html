@@ -43,7 +43,7 @@
     <header class="lg:container lg:mx-auto container mx-auto text-white">
       <!-- Navbar -->
 
-      <nav class="flex mt-10 w-[1440px] h-[60px] bg-[#F85559] rounded-full hidden">
+      <nav class="lg:flex lg:mt-10 lg:w-[1440px] lg:h-[60px] lg:bg-[#F85559] lg:rounded-full ">
         <div class="flex-1">
           <ul class="flex gap-6 pl-5 pt-4">
             <li>Home</li>
@@ -53,19 +53,37 @@
           </ul>
         </div>
 
+       <div class="flex px-[20px]">
         <div class="flex flex-1 gap-3">
           <img class="h-12 w-8 pt-3" src="./images/logo.png" alt="" />
-          <h1 class="pt-2 text-[30px]">Fruit Burst!</h1>
+          <h1 class="pt-2 text-[30px] text-black lg:pr-[330px]">Fruit Burst!</h1>
         </div>
 
-        <div>
-          <input
-            class="bg-white mr-7 mt-4 rounded-full w-[300px] h-[30px] pl-4"
-            type="text"
-            placeholder="Search here"
-          />
+        <div class="text-black lg:hidden pt-[20px]">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+
+
         </div>
+       </div>
+
+       <div class="lg:relative">
+        <input
+          class="hidden lg:block lg:bg-white lg:mr-7 lg:mt-4 lg:rounded-full lg:w-[300px] lg:h-[30px] lg:pl-4 text-transparent"
+          type="text"
+          placeholder="Search here"
+        />
+        <div class="hidden lg:block lg:absolute lg:top-[20px] lg:right-[60px]"> 
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M20.9998 21L15.8028 15.803M15.8028 15.803C17.2094 14.3965 17.9996 12.4887 17.9996 10.4995C17.9996 8.51035 17.2094 6.60262 15.8028 5.19605C14.3962 3.78947 12.4885 2.99927 10.4993 2.99927C8.51011 2.99927 6.60238 3.78947 5.19581 5.19605C3.78923 6.60262 2.99902 8.51035 2.99902 10.4995C2.99902 12.4887 3.78923 14.3965 5.19581 15.803C6.60238 17.2096 8.51011 17.9998 10.4993 17.9998C12.4885 17.9998 14.3962 17.2096 15.8028 15.803Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+      </div>
+      
       </nav>
+
+
+      
+      
 
      
 
@@ -109,14 +127,14 @@
           </div>
           <div class="lg:absolute absolute lg:top-[200px] lg:left-[360px] md:top-[150px] md:absolute md:left-[200px] left-[90px] top-[50px] text-sm text-center">    <div class="lg:text-white lg:text-center lg:text-6xl lg:font-extrabold lg:leading-normal  md:pl-[80px] md:text-white md:text-center md:text-xl text-white  " >Exotic tastes at your <br> doorstep</div>
           <p class="lg:text-white lg:text-center lg:text-base lg:font-medium lg:leading-normal md:text-sm md:ml-[120px] md:text-white">We supply highly quality organic products</p>
-          <button class="mt-6 lg:ml-[150px] md:ml-[160px] justify-center items-center rounded-lg w-36 h-12 bg-[#F85559] text-white text-center text-xl font-semibold leading-norma">Shop Now</button>
+          <button class="mt-6 lg:ml-[150px] md:ml-[160px] justify-center items-center rounded-lg w-36 h-12 bg-[#F85559] text-white text-center text-xl font-semibold leading-norma lg:mr-[50px]">Shop Now</button>
 
          
         
         </div>
            
         </div>
-        <div class="w-[1196px] justify-evenly p-[10px] h-[170px] flex-shrink-0 rounded-lg bg-white shadow-xl lg:flex absolute top-[520px] right-[410px] hidden">
+        <div class="w-[1196px] justify-evenly p-[10px] h-[170px] flex-shrink-0 rounded-lg bg-white shadow-xl lg:flex absolute top-[620px] right-[410px] hidden">
           <div><img src="./images/fruit1.png" alt=""><p class="text-black pl-[25px]">Strawberry</p></div>
           <div><img src="./images/fruit2.png" alt=""><p class="text-black pl-[30px]">Orange</p></div>
           <div><img src="./images/fruit3.png" alt=""><p class="text-black pl-[40px]">Mango</p></div>
@@ -135,7 +153,7 @@
 
       <section>
       
-        <div class="text-center mt-[20px] lg:flex lg:pr-[90px] lg:mt-[80px] lg:justify-between">
+        <div class="text-center ml-[40px] mt-[20px] lg:flex lg:pr-[90px] lg:mt-[180px] lg:justify-between ">
 
 
         <div class=""><h2 class="text-black  text-center  text-lg font-extrabold leading-normal lg:text-start lg:text-black  lg:text-4xl lg:font-extrabold lg:leading-normal">Deal of the day</h2>
@@ -385,7 +403,7 @@
 
      <div style="background-image: url('images/banner1.png'); background-color: rgba(18, 18, 18, 0.70');"
      
-     class="mt-8 bg-no-repeat">
+     class="mt-8 bg-no-repeat ">
       <h1 class="text-white text-center lg:pr-[120px] text-lg font-bold leading-normal  lg:text-4xl lg:font-extrabold lg:leading-normal lg:pt-[100px]" >Meet the team</h1>
       <p class="text-white text-center text-base font-medium leading-6 mt-4 lg:text-xl lg:font-medium lg:leading-normal lg:pr-[150px] lg:mb-[50px]">Contrary to popular belief, is not simply random text. It has roots in a piece of classical<br/> Latin literature from 45 BC, making it over 2000 years old.</p>
      
