@@ -40,10 +40,10 @@
     </style>
   </head>
   <body class="font-lato">
-    <header class="container mx-auto text-white">
+    <header class="lg:container lg:mx-auto container mx-auto text-white">
       <!-- Navbar -->
 
-      <nav class="flex mt-10 w-[1440px] h-[60px] bg-[#F85559] rounded-full">
+      <nav class="flex mt-10 w-[1440px] h-[60px] bg-[#F85559] rounded-full hidden">
         <div class="flex-1">
           <ul class="flex gap-6 pl-5 pt-4">
             <li>Home</li>
@@ -54,7 +54,7 @@
         </div>
 
         <div class="flex flex-1 gap-3">
-          <img class="h-12 w-8 pt-3" src="/images/logo.png" alt="" />
+          <img class="h-12 w-8 pt-3" src="./images/logo.png" alt="" />
           <h1 class="pt-2 text-[30px]">Fruit Burst!</h1>
         </div>
 
@@ -70,7 +70,7 @@
       <!-- Banner Section -->
 
       <section class="scroll-pt-48">
-        <div class="relative lg:relative md: relative">  
+        <div class=" lg:relative md: relative">  
         <div class="carousel lg:w-[93.5%] pt-5 ">
             <div id="slide1" class="carousel-item relative w-full">
              <img src="/images/banner1.png " class="w-full rounded-lg " />
@@ -104,12 +104,148 @@
           </div>
           <div class="lg:absolute absolute lg:top-[200px] lg:left-[360px] md:top-[150px] md:absolute md:left-[200px] left-[90px] top-[50px] text-sm text-center">    <div class="lg:text-white lg:text-center lg:text-6xl lg:font-extrabold lg:leading-normal  md:pl-[80px] md:text-white md:text-center md:text-xl text-white  " >Exotic tastes at your <br> doorstep</div>
           <p class="lg:text-white lg:text-center lg:text-base lg:font-medium lg:leading-normal md:text-sm md:ml-[120px] md:text-white">We supply highly quality organic products</p>
-          <button class="mt-6 lg:ml-[290px] md:ml-[160px] justify-center items-center rounded-lg w-36 h-12 bg-[#F85559] ">Click me</button>
+          <button class="mt-6 lg:ml-[150px] md:ml-[160px] justify-center items-center rounded-lg w-36 h-12 bg-[#F85559] ">Click me</button>
         
         </div>
            
         </div>
       </section>
+
+      <!-- Deal of the day -->
+
+      <section>
+      
+        <div class="text-center mt-[20px] lg:flex lg:pr-[90px] lg:mt-[80px] lg:justify-between">
+
+
+        <div class=""><h2 class="text-black  text-center  text-lg font-extrabold leading-normal lg:text-start lg:text-black  lg:text-4xl lg:font-extrabold lg:leading-normal">Deal of the day</h2>
+          <p class="text-black text-opacity-60 text-center text-xs leading-6  lg:text-black lg:text-opacity-60 lg:text-base lg:font-medium lg:leading-[26px] lg:text-start">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>Latin literature from 45 BC, making it over 2000 years old.</p></div>
+      
+        <div class="flex items-center ml-[90px] mt-[20px] lg:text-start lg:gap-4 ">
+          <div class=" text-black text-center text-[28.789px] font-extrabold leading-normal lg:text-black lg:text-center lg:text-4xl lg:font-extrabold lg:leading-normal">25 <p class="text-black text-opacity-60 text-[9.596px] font-medium leading-[15.594px] lg:text-[rgba(18, 18, 18, 0.60)] lg:text-base lg:font-medium lg:leading-[26px]">Days</p></div>
+          <div><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+            <path d="M7.60902 4.30006C7.48971 4.30006 7.37529 4.25267 7.29093 4.16831C7.20657 4.08395 7.15918 3.96953 7.15918 3.85023C7.15918 3.73092 7.20657 3.6165 7.29093 3.53214C7.37529 3.44778 7.48971 3.40039 7.60902 3.40039C7.72832 3.40039 7.84274 3.44778 7.9271 3.53214C8.01146 3.6165 8.05885 3.73092 8.05885 3.85023C8.05885 3.96953 8.01146 4.08395 7.9271 4.16831C7.84274 4.25267 7.72832 4.30006 7.60902 4.30006ZM7.60902 7.89875C7.48971 7.89875 7.37529 7.85135 7.29093 7.76699C7.20657 7.68263 7.15918 7.56821 7.15918 7.44891C7.15918 7.32961 7.20657 7.21519 7.29093 7.13083C7.37529 7.04647 7.48971 6.99908 7.60902 6.99908C7.72832 6.99908 7.84274 7.04647 7.9271 7.13083C8.01146 7.21519 8.05885 7.32961 8.05885 7.44891C8.05885 7.56821 8.01146 7.68263 7.9271 7.76699C7.84274 7.85135 7.72832 7.89875 7.60902 7.89875ZM7.60902 11.4974C7.48971 11.4974 7.37529 11.45 7.29093 11.3657C7.20657 11.2813 7.15918 11.1669 7.15918 11.0476C7.15918 10.9283 7.20657 10.8139 7.29093 10.7295C7.37529 10.6452 7.48971 10.5978 7.60902 10.5978C7.72832 10.5978 7.84274 10.6452 7.9271 10.7295C8.01146 10.8139 8.05885 10.9283 8.05885 11.0476C8.05885 11.1669 8.01146 11.2813 7.9271 11.3657C7.84274 11.45 7.72832 11.4974 7.60902 11.4974Z" stroke="#121212" stroke-width="0.899671" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg></div>
+          <div class="text-black text-center text-[28.789px] font-extrabold leading-normal lg:text-black lg:text-center lg:text-4xl lg:font-extrabold lg:leading-normal">26 <p class="text-black text-opacity-60 text-[9.596px] font-medium leading-[15.594px] lg:text-[rgba(18, 18, 18, 0.60)] lg:text-base lg:font-medium lg:leading-[26px]">Hours</p></div>
+          <div><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+            <path d="M7.60902 4.30006C7.48971 4.30006 7.37529 4.25267 7.29093 4.16831C7.20657 4.08395 7.15918 3.96953 7.15918 3.85023C7.15918 3.73092 7.20657 3.6165 7.29093 3.53214C7.37529 3.44778 7.48971 3.40039 7.60902 3.40039C7.72832 3.40039 7.84274 3.44778 7.9271 3.53214C8.01146 3.6165 8.05885 3.73092 8.05885 3.85023C8.05885 3.96953 8.01146 4.08395 7.9271 4.16831C7.84274 4.25267 7.72832 4.30006 7.60902 4.30006ZM7.60902 7.89875C7.48971 7.89875 7.37529 7.85135 7.29093 7.76699C7.20657 7.68263 7.15918 7.56821 7.15918 7.44891C7.15918 7.32961 7.20657 7.21519 7.29093 7.13083C7.37529 7.04647 7.48971 6.99908 7.60902 6.99908C7.72832 6.99908 7.84274 7.04647 7.9271 7.13083C8.01146 7.21519 8.05885 7.32961 8.05885 7.44891C8.05885 7.56821 8.01146 7.68263 7.9271 7.76699C7.84274 7.85135 7.72832 7.89875 7.60902 7.89875ZM7.60902 11.4974C7.48971 11.4974 7.37529 11.45 7.29093 11.3657C7.20657 11.2813 7.15918 11.1669 7.15918 11.0476C7.15918 10.9283 7.20657 10.8139 7.29093 10.7295C7.37529 10.6452 7.48971 10.5978 7.60902 10.5978C7.72832 10.5978 7.84274 10.6452 7.9271 10.7295C8.01146 10.8139 8.05885 10.9283 8.05885 11.0476C8.05885 11.1669 8.01146 11.2813 7.9271 11.3657C7.84274 11.45 7.72832 11.4974 7.60902 11.4974Z" stroke="#121212" stroke-width="0.899671" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg></div>
+        <div class="text-black text-center text-[28.789px] font-extrabold leading-normal lg:text-black lg:text-center lg:text-4xl lg:font-extrabold lg:leading-normal">27 <p class="text-black text-opacity-60 text-[9.596px] font-medium leading-[15.594px] lg:text-[rgba(18, 18, 18, 0.60)] lg:text-base lg:font-medium lg:leading-[26px]">Minutes</p></div>
+        <div><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+          <path d="M7.60902 4.30006C7.48971 4.30006 7.37529 4.25267 7.29093 4.16831C7.20657 4.08395 7.15918 3.96953 7.15918 3.85023C7.15918 3.73092 7.20657 3.6165 7.29093 3.53214C7.37529 3.44778 7.48971 3.40039 7.60902 3.40039C7.72832 3.40039 7.84274 3.44778 7.9271 3.53214C8.01146 3.6165 8.05885 3.73092 8.05885 3.85023C8.05885 3.96953 8.01146 4.08395 7.9271 4.16831C7.84274 4.25267 7.72832 4.30006 7.60902 4.30006ZM7.60902 7.89875C7.48971 7.89875 7.37529 7.85135 7.29093 7.76699C7.20657 7.68263 7.15918 7.56821 7.15918 7.44891C7.15918 7.32961 7.20657 7.21519 7.29093 7.13083C7.37529 7.04647 7.48971 6.99908 7.60902 6.99908C7.72832 6.99908 7.84274 7.04647 7.9271 7.13083C8.01146 7.21519 8.05885 7.32961 8.05885 7.44891C8.05885 7.56821 8.01146 7.68263 7.9271 7.76699C7.84274 7.85135 7.72832 7.89875 7.60902 7.89875ZM7.60902 11.4974C7.48971 11.4974 7.37529 11.45 7.29093 11.3657C7.20657 11.2813 7.15918 11.1669 7.15918 11.0476C7.15918 10.9283 7.20657 10.8139 7.29093 10.7295C7.37529 10.6452 7.48971 10.5978 7.60902 10.5978C7.72832 10.5978 7.84274 10.6452 7.9271 10.7295C8.01146 10.8139 8.05885 10.9283 8.05885 11.0476C8.05885 11.1669 8.01146 11.2813 7.9271 11.3657C7.84274 11.45 7.72832 11.4974 7.60902 11.4974Z" stroke="#121212" stroke-width="0.899671" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg></div>
+        <div class="text-black text-center text-[28.789px] font-extrabold leading-normal lg:text-black lg:text-center lg:text-4xl lg:font-extrabold lg:leading-normal">28 <p class="text-black text-opacity-60 text-[9.596px] font-medium leading-[15.594px] lg:text-[rgba(18, 18, 18, 0.60)] lg:text-base lg:font-medium lg:leading-[26px]">Seconds</p></div>
+        </div>
+
+        </div>
+      </section>
+
+
+      <!-- Card Section  -->
+      <section >
+        <!-- Card 1 -->
+
+        <div class="card w-96 bg-base-100 shadow-xl ml-5 ">
+          <figure class="px-10 pt-10">
+            <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="text-black card-title  text-center text-24  font-semibold leading-normal">12.90$ - 18.85$</h2>
+            <div class="w-[250px] h-px bg-black bg-opacity-10"></div>
+            <p class=" text-black text-opacity-60 text-center text-sm  font-medium leading-normal pt-4">Apples </p>
+            <div>
+              <div class="rating pt-6">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+
+            </div>
+            <p class="text-red-500 text-center text-[18px] font-bold leading-normal pt-4">Details</p>
+           
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+
+        <div class="card w-96 bg-base-100 shadow-xl ml-5 mt-5 ">
+          <figure class="px-10 pt-10">
+            <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="text-black card-title  text-center text-24  font-semibold leading-normal">12.90$ - 18.85$</h2>
+            <div class="w-[250px] h-px bg-black bg-opacity-10"></div>
+            <p class=" text-black text-opacity-60 text-center text-sm  font-medium leading-normal pt-4">Apples </p>
+            <div>
+              <div class="rating pt-6">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+
+            </div>
+            <p class="text-red-500 text-center text-[18px] font-bold leading-normal pt-4">Details</p>
+           
+          </div>
+        </div>
+
+
+        <!-- Card 3 -->
+
+        <div class="card w-96 bg-base-100 shadow-xl ml-5 mt-5">
+          <figure class="px-10 pt-10">
+            <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="text-black card-title  text-center text-24  font-semibold leading-normal">12.90$ - 18.85$</h2>
+            <div class="w-[250px] h-px bg-black bg-opacity-10"></div>
+            <p class=" text-black text-opacity-60 text-center text-sm  font-medium leading-normal pt-4">Apples </p>
+            <div>
+              <div class="rating pt-6">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+
+            </div>
+            <p class="text-red-500 text-center text-[18px] font-bold leading-normal pt-4">Details</p>
+           
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+
+        <div class="card w-96 bg-base-100 shadow-xl ml-5 mt-5">
+          <figure class="px-10 pt-10">
+            <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="text-black card-title  text-center text-24  font-semibold leading-normal">12.90$ - 18.85$</h2>
+            <div class="w-[250px] h-px bg-black bg-opacity-10"></div>
+            <p class=" text-black text-opacity-60 text-center text-sm  font-medium leading-normal pt-4">Apples </p>
+            <div>
+              <div class="rating pt-6">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+
+            </div>
+            <p class="text-red-500 text-center text-[18px] font-bold leading-normal pt-4">Details</p>
+           
+          </div>
+        </div>
+
+      </section>
+
     </header>
 
     <main></main>
